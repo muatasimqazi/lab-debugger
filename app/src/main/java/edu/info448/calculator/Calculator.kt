@@ -40,7 +40,7 @@ class Calculator {
     /**
      * Divide operation
      */
-    operator fun div(operand: Double): Double {
+    fun div(operand: Double): Double {
         value /= operand
         return value
     }
@@ -49,7 +49,7 @@ class Calculator {
      * Multiply operation
      */
     fun mul(operand: Double): Double {
-        value /= operand
+        value *= operand
         return value
     }
 }
